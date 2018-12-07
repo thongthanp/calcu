@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="view" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IPv6 calculator</title>
+
+    <style>
+        td {
+            border : 1px solid white;
+            background-color : lightgray;   
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color :rgb(250, 8, 28);text-align: center">IPv6 Subnet Calculator</h1>
+    <p>Plese fill IP Address</p>
+    <input id="inputip" type="text" size="45">
+    <p>select prefix</p>
+    <select id="prefix-dropdown"></select>
+    <p></p>
+    <button onclick="checkillegal()" aria-setsize="45">calculate</button>
+</body>
+<footer>
+    <script src="back1.js"></script>
+    <script src="back2.js"></script>
+</footer>
+
+</html>
